@@ -40,10 +40,6 @@
     "vite": "^2.5.4",
     "vue-tsc": "^0.2.2"
   },
-  "husky": {
-    "commitlint-msg": "commitlint -E $HUSKY_GIT_PARAMS",
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{ts,tsx,vue}": [
       "eslint --cache --fix",
